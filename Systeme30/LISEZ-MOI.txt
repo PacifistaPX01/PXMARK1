@@ -1,0 +1,19 @@
+SYSTÈME 30 — appli Android + widget (30 jours de quêtes)
+
+COMPILER L'APK AVEC GITHUB (gratuit, rien à installer)
+1. Crée un compte sur github.com puis un nouveau dépôt (New repository), nom : systeme30.
+2. Sur la page du dépôt : "uploading an existing file" (ou Add file > Upload files).
+3. Décompresse ce zip sur un ordinateur, puis glisse TOUT le contenu du dossier
+   Systeme30 dans la page (dossiers app et .github compris). Clique "Commit changes".
+   Vérifie que le dossier ".github/workflows" apparaît bien dans le dépôt.
+   S'il manque : Add file > Create new file, nom ".github/workflows/build.yml",
+   et colle le contenu du fichier build.yml.
+4. Onglet "Actions" : la compilation démarre toute seule (2 à 4 min).
+   Clique sur l'exécution terminée, descends à "Artifacts", télécharge "systeme30-apk".
+5. Décompresse, envoie app-debug.apk sur ton téléphone, ouvre-le et autorise
+   "installer des applis inconnues" si Android le demande.
+
+METTRE LE WIDGET
+Appui long sur l'écran d'accueil > Widgets > "Système 30". Ouvre d'abord l'appli une fois.
+Dans le widget : touche une quête pour la cocher, touche le titre pour ouvrir l'appli.
+Rappel quotidien à 20 h si des quêtes restent à faire.

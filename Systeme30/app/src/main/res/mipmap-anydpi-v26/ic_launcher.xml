@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_bg" />
+    <!-- Pour changer de logo : remplace ic_fg_reactor_a par ic_fg_hex, ic_fg_reactor ou ic_fg_gate -->
+    <foreground android:drawable="@drawable/ic_fg_reactor_a" />
+</adaptive-icon>
